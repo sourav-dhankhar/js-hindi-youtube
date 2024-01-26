@@ -23,6 +23,9 @@ let state;
 // symbol => unique
 
 
+// let's say that I want to know the temperature but not able to find , we cannot say it is zero , we will say null.
+// and undefined meaning that the value is not defined for this variable .
+
 // object
 
 console.log(typeof undefined); // undefined
