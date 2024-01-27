@@ -34,5 +34,7 @@ JsUser.greetingTwo = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
 
+console.log(JsUser.greeting); // It gives reference of this function 
+
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
